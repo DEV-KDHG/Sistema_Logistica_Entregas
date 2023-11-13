@@ -1,0 +1,84 @@
+
+
+.ContainerHome {
+  background-color: black;
+  margin: 0%;
+}
+
+.ContainerNavegaitor {
+  background-color: #0cc0df;
+  margin: 0%;
+}
+
+header {
+  background-color: #0cc0df;
+  color: #fff;
+  padding: 1.5rem 0;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 0.2rem;
+  justify-content: space-around;
+}
+
+header nav li {
+  margin-right: 2rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header nav li:hover {
+  background-color: #fff;
+}
+
+header nav li:hover a {
+  color: black ;
+}
+
+
+.Con_Foteer_Black {
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: end;
+  width: 100%;
+  padding: 1rem;
+}
+#footerBlack {
+  
+  margin-right: 3rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ImageBlack {
+  padding: 1rem;
+}
+@media (max-width: 650px) {
+  .Image_background {
+background-color:black;
+  display: flex;
+  align-items: center;}
+  .Image_background img{
+   
+    width: 350;
+    height: 350px;
+  }
+  .ImageBlack {
+    padding: 0.1rem;
+  }
+  
+  .Con_Foteer_Black {
+    background-color: black;
+    padding: 0;
+    margin:0;
+     
+} }

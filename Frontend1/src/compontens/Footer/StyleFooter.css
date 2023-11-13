@@ -1,0 +1,41 @@
+
+.ContenedorFooter {
+    background-color: #f9f0f0;
+   color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: end;
+    width: 100%;
+    height: 10%;
+    padding: 1rem;
+  }
+  #Footer {
+    margin-right: 3rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .ContenedroImagen img {
+    width: 50px;
+    height: 50px;
+  }
+  .ContenedorImagen {
+    padding: 1rem;
+  }
+  @media (max-width: 650px) {
+    
+    .ContenedorImagen {
+      padding: 0.2rem;
+    }
+    .ContenedorFooter {
+      background-color: #f9f0f0;
+     color: black;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      text-align: end;
+      width: 100%;
+      padding: 0.3rem;
+    }
+  
+  }

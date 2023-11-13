@@ -1,0 +1,88 @@
+.ContenedorAcceder {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #f8f0f0;
+}
+
+.Contenedor_formulario {
+  text-align: center;
+  align-items: center;
+  background-color: #f8f0f0;
+  border: 1rem;
+  border-color: black;
+  border: 0.2rem solid #d9d9d9;
+  border-radius: 2rem;
+  padding: 0.8rem;
+  margin-bottom: 0.7rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Contenedor_formulario h2 {
+  background-color: #d9d9d9;
+}
+
+.Formulario_Acceder form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 90%;
+  max-width: 400px;
+  padding: 0.9rem;
+  background-color: #d9d9d9;
+}
+
+.Formulario_Acceder .Labels {
+  background-color: #d9d9d9;
+  margin: 0.9rem;
+}
+
+input {
+  background-color: #f8f0f0; 
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+}
+
+.Formulario_Acceder button {
+  border: none;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 0.3rem;
+  background-color: #38b6ff;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5acade;  
+}
+
+.Contenedor_formulario {
+  /* ... */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Formulario_Acceder .Labels {
+  /* ... */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Formulario_Acceder .Labels label {
+  /* ... */
+  margin: 0.5rem;
+}
+
+
+

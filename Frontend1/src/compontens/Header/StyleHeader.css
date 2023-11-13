@@ -1,0 +1,25 @@
+.contenedorHeadear {
+    background-color:#f8f0f0 ;
+    width: 100%;
+    height: 10%
+  }
+  
+  .navegator {
+    background-color: #0cc0df;
+    margin: 0%;
+  }
+  
+  header {
+    background-color: #0cc0df;
+    color: black;
+    padding: 1.5rem 0;
+  }
+  @media (max-width: 650px) {
+  
+  
+    header {
+    padding: 0;
+    }
+  
+  
+  }

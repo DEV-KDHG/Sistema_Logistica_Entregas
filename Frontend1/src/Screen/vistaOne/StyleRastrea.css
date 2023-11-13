@@ -1,0 +1,185 @@
+body {
+  margin: 0%;
+  background-color: #f8f0f0;
+}
+
+.encabezado {
+  margin: 0%;
+  background-color: #0cc0df;
+  color: #fff;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+header {
+  background-color: #0cc0df;
+  padding: 1.5rem;
+}
+
+.imagen_header {
+  width: 60px;
+  height: 50px;
+  margin-top: -1rem;
+  margin-right: 1rem;
+  background-color: #0cc0df;
+}
+
+
+.ContenedorRastrear {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Contenedor_formulario {
+  text-align: center;
+  background-color: #d9d9d9;
+  border: 1rem;
+  border-color: black;
+  border: 0.2rem solid #d9d9d9;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Contenedor_formulario h2 {
+  background-color: #d9d9d9;
+}
+
+.FormularioRastrea form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  max-width: 400px;
+  padding: 2rem;
+
+  background-color: #d9d9d9;
+}
+
+label {
+  background-color: #d9d9d9;
+  
+  margin: 1rem;
+}
+
+input {
+    background-color: #f8f0f0; 
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+}
+
+.button{
+  display: flex;
+    justify-content: center;
+     align-items: center;
+   margin-top: 1rem;
+     gap: 2rem;
+}
+
+
+.buttons {
+ 
+
+  border: none;
+
+  padding: 0.3rem;
+  background-color: #38b6ff;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  padding: 0.6rem;
+  border-radius: 0.7rem;
+  cursor: pointer;
+
+  font-weight: bold;
+ 
+
+ 
+}
+button:hover {
+  background-color: #5acade;
+}
+
+.title h1 {
+  margin: 0%;
+ 
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center; /* Alineación horizontal centrada */
+  align-items: center;
+  flex-direction: column; /* Cambiar dirección del eje principal a vertical */
+  text-align: center; /* Alineación de texto centrada */
+}
+
+
+.ContenedorLink a {
+    color: #000000;  
+}
+.modal{
+  margin-top: 2rem;
+  background-color: #d9d9d9;
+  
+}
+.ModalEstruc{
+  
+  background-color: #d9d9d9;
+margin-top: 4rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  
+ 
+}
+.nodal_rastrea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.text_Rastrea h3 {
+ font-family: 'Times New Roman', Times, serif;
+
+}
+.text {column-count: 2;}
+.ReactModal__Content {
+  
+  width: 60%;
+  margin: auto; 
+  margin-top: 3rem;
+  text-align: center;
+  background-color: #d9d9d9;
+}
+
+.title{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+  list-style-type: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.list_dates li {
+  border-top: 1px solid rgba(135,135,135,0.5);
+  display: block;
+  margin: 0;
+  padding: auto;
+  position: relative;
+}
+p {
+  display: block;
+
+}
